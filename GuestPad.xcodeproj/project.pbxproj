@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA1FBD1B1EDB456F00989713 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1FBD1A1EDB456F00989713 /* AppDelegate.swift */; };
+		AA1FBD1D1EDB456F00989713 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1FBD1C1EDB456F00989713 /* MasterViewController.swift */; };
+		AA1FBD1F1EDB456F00989713 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1FBD1E1EDB456F00989713 /* DetailViewController.swift */; };
+		AA1FBD221EDB456F00989713 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA1FBD201EDB456F00989713 /* Main.storyboard */; };
+		AA1FBD241EDB456F00989713 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA1FBD231EDB456F00989713 /* Assets.xcassets */; };
+		AA1FBD271EDB456F00989713 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA1FBD251EDB456F00989713 /* LaunchScreen.storyboard */; };
+		AA1FBD321EDB456F00989713 /* GuestPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1FBD311EDB456F00989713 /* GuestPadTests.swift */; };
+		AA1FBD3D1EDB456F00989713 /* GuestPadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1FBD3C1EDB456F00989713 /* GuestPadUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA1FBD2E1EDB456F00989713 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA1FBD0F1EDB456F00989713 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA1FBD161EDB456F00989713;
+			remoteInfo = GuestPad;
+		};
+		AA1FBD391EDB456F00989713 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA1FBD0F1EDB456F00989713 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA1FBD161EDB456F00989713;
+			remoteInfo = GuestPad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA1FBD171EDB456F00989713 /* GuestPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuestPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA1FBD1A1EDB456F00989713 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA1FBD1C1EDB456F00989713 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		AA1FBD1E1EDB456F00989713 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		AA1FBD211EDB456F00989713 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA1FBD231EDB456F00989713 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA1FBD261EDB456F00989713 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA1FBD281EDB456F00989713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA1FBD2D1EDB456F00989713 /* GuestPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuestPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA1FBD311EDB456F00989713 /* GuestPadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestPadTests.swift; sourceTree = "<group>"; };
+		AA1FBD331EDB456F00989713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA1FBD381EDB456F00989713 /* GuestPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuestPadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA1FBD3C1EDB456F00989713 /* GuestPadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestPadUITests.swift; sourceTree = "<group>"; };
+		AA1FBD3E1EDB456F00989713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA1FBD141EDB456F00989713 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA1FBD2A1EDB456F00989713 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA1FBD351EDB456F00989713 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA1FBD0E1EDB456F00989713 = {
+			isa = PBXGroup;
+			children = (
+				AA1FBD191EDB456F00989713 /* GuestPad */,
+				AA1FBD301EDB456F00989713 /* GuestPadTests */,
+				AA1FBD3B1EDB456F00989713 /* GuestPadUITests */,
+				AA1FBD181EDB456F00989713 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA1FBD181EDB456F00989713 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA1FBD171EDB456F00989713 /* GuestPad.app */,
+				AA1FBD2D1EDB456F00989713 /* GuestPadTests.xctest */,
+				AA1FBD381EDB456F00989713 /* GuestPadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA1FBD191EDB456F00989713 /* GuestPad */ = {
+			isa = PBXGroup;
+			children = (
+				AA1FBD1A1EDB456F00989713 /* AppDelegate.swift */,
+				AA1FBD1C1EDB456F00989713 /* MasterViewController.swift */,
+				AA1FBD1E1EDB456F00989713 /* DetailViewController.swift */,
+				AA1FBD201EDB456F00989713 /* Main.storyboard */,
+				AA1FBD231EDB456F00989713 /* Assets.xcassets */,
+				AA1FBD251EDB456F00989713 /* LaunchScreen.storyboard */,
+				AA1FBD281EDB456F00989713 /* Info.plist */,
+			);
+			path = GuestPad;
+			sourceTree = "<group>";
+		};
+		AA1FBD301EDB456F00989713 /* GuestPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA1FBD311EDB456F00989713 /* GuestPadTests.swift */,
+				AA1FBD331EDB456F00989713 /* Info.plist */,
+			);
+			path = GuestPadTests;
+			sourceTree = "<group>";
+		};
+		AA1FBD3B1EDB456F00989713 /* GuestPadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA1FBD3C1EDB456F00989713 /* GuestPadUITests.swift */,
+				AA1FBD3E1EDB456F00989713 /* Info.plist */,
+			);
+			path = GuestPadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA1FBD161EDB456F00989713 /* GuestPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA1FBD411EDB456F00989713 /* Build configuration list for PBXNativeTarget "GuestPad" */;
+			buildPhases = (
+				AA1FBD131EDB456F00989713 /* Sources */,
+				AA1FBD141EDB456F00989713 /* Frameworks */,
+				AA1FBD151EDB456F00989713 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuestPad;
+			productName = GuestPad;
+			productReference = AA1FBD171EDB456F00989713 /* GuestPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA1FBD2C1EDB456F00989713 /* GuestPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA1FBD441EDB456F00989713 /* Build configuration list for PBXNativeTarget "GuestPadTests" */;
+			buildPhases = (
+				AA1FBD291EDB456F00989713 /* Sources */,
+				AA1FBD2A1EDB456F00989713 /* Frameworks */,
+				AA1FBD2B1EDB456F00989713 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA1FBD2F1EDB456F00989713 /* PBXTargetDependency */,
+			);
+			name = GuestPadTests;
+			productName = GuestPadTests;
+			productReference = AA1FBD2D1EDB456F00989713 /* GuestPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA1FBD371EDB456F00989713 /* GuestPadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA1FBD471EDB456F00989713 /* Build configuration list for PBXNativeTarget "GuestPadUITests" */;
+			buildPhases = (
+				AA1FBD341EDB456F00989713 /* Sources */,
+				AA1FBD351EDB456F00989713 /* Frameworks */,
+				AA1FBD361EDB456F00989713 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA1FBD3A1EDB456F00989713 /* PBXTargetDependency */,
+			);
+			name = GuestPadUITests;
+			productName = GuestPadUITests;
+			productReference = AA1FBD381EDB456F00989713 /* GuestPadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA1FBD0F1EDB456F00989713 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "João Vieira";
+				TargetAttributes = {
+					AA1FBD161EDB456F00989713 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					AA1FBD2C1EDB456F00989713 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AA1FBD161EDB456F00989713;
+					};
+					AA1FBD371EDB456F00989713 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AA1FBD161EDB456F00989713;
+					};
+				};
+			};
+			buildConfigurationList = AA1FBD121EDB456F00989713 /* Build configuration list for PBXProject "GuestPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA1FBD0E1EDB456F00989713;
+			productRefGroup = AA1FBD181EDB456F00989713 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA1FBD161EDB456F00989713 /* GuestPad */,
+				AA1FBD2C1EDB456F00989713 /* GuestPadTests */,
+				AA1FBD371EDB456F00989713 /* GuestPadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA1FBD151EDB456F00989713 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1FBD271EDB456F00989713 /* LaunchScreen.storyboard in Resources */,
+				AA1FBD241EDB456F00989713 /* Assets.xcassets in Resources */,
+				AA1FBD221EDB456F00989713 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA1FBD2B1EDB456F00989713 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA1FBD361EDB456F00989713 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA1FBD131EDB456F00989713 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1FBD1F1EDB456F00989713 /* DetailViewController.swift in Sources */,
+				AA1FBD1D1EDB456F00989713 /* MasterViewController.swift in Sources */,
+				AA1FBD1B1EDB456F00989713 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA1FBD291EDB456F00989713 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1FBD321EDB456F00989713 /* GuestPadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA1FBD341EDB456F00989713 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1FBD3D1EDB456F00989713 /* GuestPadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA1FBD2F1EDB456F00989713 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA1FBD161EDB456F00989713 /* GuestPad */;
+			targetProxy = AA1FBD2E1EDB456F00989713 /* PBXContainerItemProxy */;
+		};
+		AA1FBD3A1EDB456F00989713 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA1FBD161EDB456F00989713 /* GuestPad */;
+			targetProxy = AA1FBD391EDB456F00989713 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA1FBD201EDB456F00989713 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA1FBD211EDB456F00989713 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA1FBD251EDB456F00989713 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA1FBD261EDB456F00989713 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA1FBD3F1EDB456F00989713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		AA1FBD401EDB456F00989713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA1FBD421EDB456F00989713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GuestPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Atlas.GuestPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AA1FBD431EDB456F00989713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GuestPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Atlas.GuestPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AA1FBD451EDB456F00989713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GuestPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Atlas.GuestPadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuestPad.app/GuestPad";
+			};
+			name = Debug;
+		};
+		AA1FBD461EDB456F00989713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GuestPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Atlas.GuestPadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuestPad.app/GuestPad";
+			};
+			name = Release;
+		};
+		AA1FBD481EDB456F00989713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = GuestPadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Atlas.GuestPadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GuestPad;
+			};
+			name = Debug;
+		};
+		AA1FBD491EDB456F00989713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = GuestPadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Atlas.GuestPadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GuestPad;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA1FBD121EDB456F00989713 /* Build configuration list for PBXProject "GuestPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA1FBD3F1EDB456F00989713 /* Debug */,
+				AA1FBD401EDB456F00989713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA1FBD411EDB456F00989713 /* Build configuration list for PBXNativeTarget "GuestPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA1FBD421EDB456F00989713 /* Debug */,
+				AA1FBD431EDB456F00989713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA1FBD441EDB456F00989713 /* Build configuration list for PBXNativeTarget "GuestPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA1FBD451EDB456F00989713 /* Debug */,
+				AA1FBD461EDB456F00989713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA1FBD471EDB456F00989713 /* Build configuration list for PBXNativeTarget "GuestPadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA1FBD481EDB456F00989713 /* Debug */,
+				AA1FBD491EDB456F00989713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA1FBD0F1EDB456F00989713 /* Project object */;
+}
